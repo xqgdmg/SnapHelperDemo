@@ -13,6 +13,7 @@ import android.view.View;
 
 /**
  * Created by chenzhimao on 17-7-7.
+ * 这个叼毛，写了一大篇文章，代码一个字注释都没有。。。。
  */
 
 public class GallerySnapHelper extends SnapHelper {
