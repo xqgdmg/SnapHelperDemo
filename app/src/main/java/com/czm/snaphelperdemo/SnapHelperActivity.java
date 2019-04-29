@@ -21,6 +21,7 @@ public class SnapHelperActivity extends AppCompatActivity {
         mLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
         mRecyclerView.setLayoutManager(mLayoutManager);
         initData();
+
         mRecyclerView.setAdapter(new SnapHelperAdapter(this, mData));
         mGallerySnapHelper = new GallerySnapHelper();
         mGallerySnapHelper.attachToRecyclerView(mRecyclerView);
